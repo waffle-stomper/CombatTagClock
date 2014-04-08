@@ -1,0 +1,16 @@
+[
+{
+  "modid": "CombatTagClock",
+  "name": "CombatTag Clock",
+  "description": "Displays the amount of time remaining when combat-tagged",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/waffle-stomper/CombatTagClock/",
+  "updateUrl": "",
+  "authors": ["waffle_stomper"],
+  "credits": "ttk2 - for teaching me that nothing is more important than imaginary diamonds",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
