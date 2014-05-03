@@ -34,6 +34,7 @@ public class CTEventHandler {
 	public void chatReceived(ClientChatReceivedEvent event){
 		if (!this.combatTagClock.pluginEnabled){return;}
 		String message = event.message.getUnformattedText().toLowerCase();
+		if (message.contains(":")){return;} //Prevent CTC trolling by players
 		if (message.contains("you have been combat tagged on login") ||
 				message.contains("type /ct to check your remaining tag time")){
 			if (message.contains("tagged on login") && this.combatTagClock.suppressLoginMessage &&
